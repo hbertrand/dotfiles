@@ -3,9 +3,9 @@
 To install:
 
 ```
-ln -s tmux/.tmux.conf ~/.tmux.conf
-ln -s xmodmap/.Xmodmap ~/.Xmodmap
-sudo ln -s logid.cfg /etc/logid.cfg
+ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
+ln -s ~/.dotfiles/xmodmap/.Xmodmap ~/.Xmodmap
+sudo ln -s ~/.dotfiles/logid.cfg /etc/logid.cfg
 ```
 
 For Tmux, need to remap a key to guillemotleft:
